@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.product{
+    background-color: #d6e6f1;
+    height: 100vh;
+}
+
+.product .main-img img{
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+.product .thumb-img {
+    text-align: center;
+}
+.product .thumb-img .box{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #2a8fc6;
+    cursor: pointer;
+}
+
+.product .thumb-img .box.active{
+    border-color: #000;
+}
+
+.product .thumb-img img{
+    width: 100%;
+    height: 100%;
+}
